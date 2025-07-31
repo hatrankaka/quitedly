@@ -188,3 +188,22 @@ npx create-next-app@latest --typescript
 # or
 npx tsc --init
 ```
+### Other Files
+
+#### Reading Files
+- Use MCP filesystem for reading and browsing files
+- Use MCP for analyzing project structure
+- Use MCP for searching across multiple files
+
+#### Writing/Editing Files
+- ALWAYS use Claude Code extension for:
+  - Creating new files
+  - Editing existing files
+  - Deleting files
+  - Any write operations
+
+#### Example Commands
+- ✅ "Read the config file" → Use MCP
+- ✅ "Show me the project structure" → Use MCP
+- ✅ "Edit the Header component" → Use Claude Code extension
+- ✅ "Create a new API route" → Use Claude Code extension
